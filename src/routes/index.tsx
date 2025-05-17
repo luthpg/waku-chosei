@@ -1,3 +1,4 @@
+import { env } from "@/env";
 import logo from "@/logo.svg";
 import { createFileRoute } from "@tanstack/react-router";
 
@@ -23,7 +24,7 @@ function App() {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Learn React
+					Learn React for App '{env.VITE_APP_TITLE}'
 				</a>
 				<a
 					className="text-[#61dafb] hover:underline"
